@@ -1,10 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Cinema.Views.DetalheView">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="Cinema.Views.DetalheView"
+             Title="{Binding Path=Filme.nome}">
+
+    <StackLayout Padding="25">
+
+        <TableView Intent="Settings">
+
+            <TableRoot>
+
+                <TableSection Title="Menu de escolha">
+
+                    <SwitchCell Text="{Binding Texto2D}" On="{Binding Tem2D,Mode=TwoWay}"></SwitchCell>
+                    <SwitchCell Text="{Binding Texto3D}" On="{Binding Tem3D,Mode=TwoWay}"></SwitchCell>
+                    <SwitchCell Text="{Binding TextoMeia2D}" On="{Binding TemMeia2D,Mode=TwoWay}"></SwitchCell>
+                    <SwitchCell Text="{Binding TextoMeia3D}" On="{Binding TemMeia3D,Mode=TwoWay}"></SwitchCell>
+                    <SwitchCell Text="{Binding TextoPipoca}" On="{Binding TemPipoca,Mode=TwoWay}"></SwitchCell>
+                    <SwitchCell Text="{Binding TextoPipocaGrande}" On="{Binding TemPipocaGrande,Mode=TwoWay}"></SwitchCell>
+                    <SwitchCell Text="{Binding TextoRefri}" On="{Binding TemRefri,Mode=TwoWay}"></SwitchCell>
+                    <SwitchCell Text="{Binding TextoCombo}" On="{Binding TemCombo,Mode=TwoWay}"></SwitchCell>
+                    <TextCell Text="{Binding PrecoTotalFormatado,Mode=TwoWay}"></TextCell>
+
+                </TableSection>
+
+            </TableRoot>
+
+        </TableView>
+
+        <Button x:Name="botaoProximo" Text="Próximo" Clicked="botaoProximo_Clicked"></Button>
+
+
+    </StackLayout>
+
+
 </ContentPage>
+
+
+
+

@@ -9,47 +9,35 @@
 
         <ListView x:Name="listViewFilmes" ItemsSource="{Binding Filmes}" ItemTapped="listViewFilmes_ItemTapped">
 
-
             <ListView.ItemTemplate>
 
 
                 <DataTemplate>
 
 
-
                     <ViewCell>
-
-
                         <ViewCell.View>
 
-
                             <Label FontSize="20" FormattedText="{Binding FilmeLabel}"></Label>
-                            
-                            
+
                         </ViewCell.View>
-                        
-                        
+
+
                     </ViewCell>
-                    
-                    
-                    
+
+
+
                 </DataTemplate>
-                
-                
-                
+
+
             </ListView.ItemTemplate>
-            
-            
-            
-            
+
+
+
         </ListView>
-        
-        
+
     </StackLayout>
-	
-    
-    
-    
-   
+
+
 
 </ContentPage>
