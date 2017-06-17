@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Cinema\Cinema\Cinema.projitems*{3d6d0c0d-3229-44d7-b3d2-2e862e125da6}*SharedItemsImports = 4
 		Cinema\Cinema\Cinema.projitems*{6cea804f-6a0b-4eb4-a609-9055d2bbd0b9}*SharedItemsImports = 4
+		Cinema\Cinema\Cinema.projitems*{a8b95a82-957e-42b3-af4b-de1d0e61562a}*SharedItemsImports = 4
 		Cinema\Cinema\Cinema.projitems*{fce256d0-e31b-4d95-b56f-11ad56e7ca3a}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

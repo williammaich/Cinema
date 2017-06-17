@@ -13,7 +13,7 @@ namespace Cinema
 		{
 			InitializeComponent();
 
-			MainPage = new Cinema.MainPage();
+			MainPage = new Views.ListagemView();
 		}
 
 		protected override void OnStart ()
