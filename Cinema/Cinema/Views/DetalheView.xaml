@@ -2,8 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cinema.Views.DetalheView"
-             Title="{Binding Path=Filme.nome}">
-
+             Title ="{Binding Path = Filme.nome}">
     <StackLayout Padding="25">
 
         <TableView Intent="Settings">
@@ -35,7 +34,3 @@
 
 
 </ContentPage>
-
-
-
-

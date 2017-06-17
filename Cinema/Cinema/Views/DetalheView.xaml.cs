@@ -263,7 +263,7 @@ namespace Cinema.Views
 
         {
 
-            Navigation.PushAsync(new AgendamentoView(this.Filme));
+            Navigation.PushAsync(new Agendamento(this.Filme));
 
 
         }

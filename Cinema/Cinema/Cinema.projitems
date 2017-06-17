@@ -12,8 +12,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\AgendamentoView.xaml.cs">
-      <DependentUpon>AgendamentoView.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Agendamento.xaml.cs">
+      <DependentUpon>Agendamento.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\DetalheView.xaml.cs">
@@ -41,7 +41,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AgendamentoView.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Agendamento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
