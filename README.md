@@ -62,9 +62,9 @@ O Xamarin foi criado pela própria empresa Xamarin, depois de ser muito usado e 
  
  ## Aulas do projeto
  
- [Aula 01](https://www.youtube.com/watch?v=wvR2axsOi40&t=58s) - Inrtrodução
- [Aula 02](https://www.youtube.com/watch?v=LamsByjwK5I&t=274s) - Criação da tela de listas
- [Aula 03](https://www.youtube.com/watch?v=dNq2k1Gp4QU) - Criação da tela de detalhes
- [Aula 04](https://www.youtube.com/watch?v=BGeWZVIw8Ss) - Criação da tela de agendamento e conclusão 
+ * [Aula 01](https://www.youtube.com/watch?v=wvR2axsOi40&t=58s) - Inrtrodução
+ * [Aula 02](https://www.youtube.com/watch?v=LamsByjwK5I&t=274s) - Criação da tela de listas
+ * [Aula 03](https://www.youtube.com/watch?v=dNq2k1Gp4QU) - Criação da tela de detalhes
+ * [Aula 04](https://www.youtube.com/watch?v=BGeWZVIw8Ss) - Criação da tela de agendamento e conclusão 
  
  
